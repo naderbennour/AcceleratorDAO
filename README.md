@@ -24,6 +24,9 @@ To run the demo follow these steps:
     # Make sure you have the above prerequisites installed already!
     git clone https://github.com/Daltonic/acceleratorDAO PROVIDER_NAME
     cd PROVIDER_NAME # Navigate to the new folder.
+    npm i -g yarn
+    npm i -g truffle
+    npm i -g ganache-cli
     yarn install # Installs all the dependencies.
     ```
 2. Create an Infuria project, copy and paste your key in the spaces below.
@@ -33,6 +36,8 @@ To run the demo follow these steps:
     SECRET_KEY=<SECRET_PHRASE>
     DEPLOYER_KEY=<YOUR_PRIVATE_KEY>
     ```
+4. In a new terminal run `truffle migrate`
+    
 5. Run the app using `yarn start`
 <br/>
 

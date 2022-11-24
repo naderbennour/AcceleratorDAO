@@ -37,7 +37,9 @@ To run the demo follow these steps:
     DEPLOYER_KEY=<YOUR_PRIVATE_KEY>
     ```
 4. In a new terminal run `truffle migrate`
-    
-5. Run the app using `yarn start`
+ 
+5. Run `ganache-cli -a`
+
+6. And in another terminal run the app using `yarn start`
 <br/>
 

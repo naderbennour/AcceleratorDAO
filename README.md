@@ -36,7 +36,7 @@ To run the demo follow these steps:
     SECRET_KEY=<SECRET_PHRASE>
     DEPLOYER_KEY=<YOUR_PRIVATE_KEY>
     ```
-4. In a new terminal run `truffle migrate`
+4. In a new terminal run `truffle migrate` or `truffle migrate --network development`
  
 5. Run `ganache-cli -a`
 

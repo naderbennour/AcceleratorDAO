@@ -28,8 +28,8 @@ const Header = () => {
   }
 
   return (
-    <header className="sticky top-0 z-50 dark:text-blue-500">
-      <nav className="navbar navbar-expand-lg shadow-md py-2 relative flex items-center w-full justify-between bg-white dark:bg-[#212936]">
+    <header className="sticky top-0 z-50 ">
+      <nav className="navbar navbar-expand-lg shadow-md py-2 relative flex items-center w-full justify-between dark:bg-[#212936]">
         <div className="px-6 w-full flex flex-wrap items-center justify-between">
           <div className="navbar-collapse collapse grow flex flex-row justify-between items-center p-2">
             <Link
@@ -37,25 +37,13 @@ const Header = () => {
               className="flex flex-row justify-start items-center space-x-3"
             >
                             
-              <span className="invisible md:visible dark:text-gray-300">
+              <span style={{color:"black"}}>
                 Accelerator DAO
               </span>
             </Link>
 
             <div className="flex flex-row justify-center items-center space-x-5">
-              {darken ? (
-                <MdLightMode
-                  className="cursor-pointer"
-                  size={25}
-                  onClick={toggleLight}
-                />
-              ) : (
-                <FaMoon
-                  className="cursor-pointer"
-                  size={25}
-                  onClick={toggleLight}
-                />
-              )}
+              
 
               {connectedAccount ? (
                 <button

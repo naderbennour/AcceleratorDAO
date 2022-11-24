@@ -34,6 +34,15 @@
 *::after {
   box-sizing: border-box; }
 
+  .hero-image {
+    background-image: url("background.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -3251,37 +3260,6 @@ input[type="button"].btn-block {
     .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
       color: #1de9b6; }
 
-.navbar-dark .navbar-brand {
-  color: #ffffff; }
-  .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: #ffffff; }
-
-.navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.7); }
-  .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.9); }
-  .navbar-dark .navbar-nav .nav-link.disabled {
-    color: rgba(255, 255, 255, 0.3); }
-
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .nav-link.active {
-  color: #ffffff; }
-
-.navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.7);
-  border-color: rgba(255, 255, 255, 0.1); }
-
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
-
-.navbar-dark .navbar-text {
-  color: rgba(255, 255, 255, 0.7); }
-  .navbar-dark .navbar-text a {
-    color: #ffffff; }
-    .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-      color: #ffffff; }
 
 .card {
   position: relative;
@@ -5743,23 +5721,23 @@ button.bg-dark:focus {
   margin-left: 9rem !important; }
 
 .m-8 {
-  margin: 12rem !important; }
+  margin: 2rem !important; }
 
 .mt-8,
 .my-8 {
-  margin-top: 12rem !important; }
+  margin-top: 2rem !important; }
 
 .mr-8,
 .mx-8 {
-  margin-right: 12rem !important; }
+  margin-right: 2rem !important; }
 
 .mb-8,
 .my-8 {
-  margin-bottom: 12rem !important; }
+  margin-bottom: 2rem !important; }
 
 .ml-8,
 .mx-8 {
-  margin-left: 12rem !important; }
+  margin-left: 2rem !important; }
 
 .m-9 {
   margin: 15rem !important; }
@@ -5933,23 +5911,23 @@ button.bg-dark:focus {
   padding-left: 9rem !important; }
 
 .p-8 {
-  padding: 12rem !important; }
+  padding: 2rem !important; }
 
 .pt-8,
 .py-8 {
-  padding-top: 12rem !important; }
+  padding-top: 2rem !important; }
 
 .pr-8,
 .px-8 {
-  padding-right: 12rem !important; }
+  padding-right: 2rem !important; }
 
 .pb-8,
 .py-8 {
-  padding-bottom: 12rem !important; }
+  padding-bottom: 2rem !important; }
 
 .pl-8,
 .px-8 {
-  padding-left: 12rem !important; }
+  padding-left: 2rem !important; }
 
 .p-9 {
   padding: 15rem !important; }
@@ -6103,19 +6081,19 @@ button.bg-dark:focus {
   .mx-sm-7 {
     margin-left: 9rem !important; }
   .m-sm-8 {
-    margin: 12rem !important; }
+    margin: 2rem !important; }
   .mt-sm-8,
   .my-sm-8 {
-    margin-top: 12rem !important; }
+    margin-top: 2rem !important; }
   .mr-sm-8,
   .mx-sm-8 {
-    margin-right: 12rem !important; }
+    margin-right: 2rem !important; }
   .mb-sm-8,
   .my-sm-8 {
-    margin-bottom: 12rem !important; }
+    margin-bottom: 2rem !important; }
   .ml-sm-8,
   .mx-sm-8 {
-    margin-left: 12rem !important; }
+    margin-left: 2rem !important; }
   .m-sm-9 {
     margin: 15rem !important; }
   .mt-sm-9,
@@ -6243,19 +6221,19 @@ button.bg-dark:focus {
   .px-sm-7 {
     padding-left: 9rem !important; }
   .p-sm-8 {
-    padding: 12rem !important; }
+    padding: 2rem !important; }
   .pt-sm-8,
   .py-sm-8 {
-    padding-top: 12rem !important; }
+    padding-top: 2rem !important; }
   .pr-sm-8,
   .px-sm-8 {
-    padding-right: 12rem !important; }
+    padding-right: 2rem !important; }
   .pb-sm-8,
   .py-sm-8 {
-    padding-bottom: 12rem !important; }
+    padding-bottom: 2rem !important; }
   .pl-sm-8,
   .px-sm-8 {
-    padding-left: 12rem !important; }
+    padding-left: 2rem !important; }
   .p-sm-9 {
     padding: 15rem !important; }
   .pt-sm-9,
@@ -6399,19 +6377,19 @@ button.bg-dark:focus {
   .mx-md-7 {
     margin-left: 9rem !important; }
   .m-md-8 {
-    margin: 12rem !important; }
+    margin: 2rem !important; }
   .mt-md-8,
   .my-md-8 {
-    margin-top: 12rem !important; }
+    margin-top: 2rem !important; }
   .mr-md-8,
   .mx-md-8 {
-    margin-right: 12rem !important; }
+    margin-right: 2rem !important; }
   .mb-md-8,
   .my-md-8 {
-    margin-bottom: 12rem !important; }
+    margin-bottom: 2rem !important; }
   .ml-md-8,
   .mx-md-8 {
-    margin-left: 12rem !important; }
+    margin-left: 2rem !important; }
   .m-md-9 {
     margin: 15rem !important; }
   .mt-md-9,
@@ -6539,19 +6517,19 @@ button.bg-dark:focus {
   .px-md-7 {
     padding-left: 9rem !important; }
   .p-md-8 {
-    padding: 12rem !important; }
+    padding: 2rem !important; }
   .pt-md-8,
   .py-md-8 {
-    padding-top: 12rem !important; }
+    padding-top: 2rem !important; }
   .pr-md-8,
   .px-md-8 {
-    padding-right: 12rem !important; }
+    padding-right: 2rem !important; }
   .pb-md-8,
   .py-md-8 {
-    padding-bottom: 12rem !important; }
+    padding-bottom: 2rem !important; }
   .pl-md-8,
   .px-md-8 {
-    padding-left: 12rem !important; }
+    padding-left: 2rem !important; }
   .p-md-9 {
     padding: 15rem !important; }
   .pt-md-9,
@@ -6695,19 +6673,19 @@ button.bg-dark:focus {
   .mx-lg-7 {
     margin-left: 9rem !important; }
   .m-lg-8 {
-    margin: 12rem !important; }
+    margin: 2rem !important; }
   .mt-lg-8,
   .my-lg-8 {
-    margin-top: 12rem !important; }
+    margin-top: 2rem !important; }
   .mr-lg-8,
   .mx-lg-8 {
-    margin-right: 12rem !important; }
+    margin-right: 2rem !important; }
   .mb-lg-8,
   .my-lg-8 {
-    margin-bottom: 12rem !important; }
+    margin-bottom: 2rem !important; }
   .ml-lg-8,
   .mx-lg-8 {
-    margin-left: 12rem !important; }
+    margin-left: 2rem !important; }
   .m-lg-9 {
     margin: 15rem !important; }
   .mt-lg-9,
@@ -6835,19 +6813,19 @@ button.bg-dark:focus {
   .px-lg-7 {
     padding-left: 9rem !important; }
   .p-lg-8 {
-    padding: 12rem !important; }
+    padding: 2rem !important; }
   .pt-lg-8,
   .py-lg-8 {
-    padding-top: 12rem !important; }
+    padding-top: 2rem !important; }
   .pr-lg-8,
   .px-lg-8 {
-    padding-right: 12rem !important; }
+    padding-right: 2rem !important; }
   .pb-lg-8,
   .py-lg-8 {
-    padding-bottom: 12rem !important; }
+    padding-bottom: 2rem !important; }
   .pl-lg-8,
   .px-lg-8 {
-    padding-left: 12rem !important; }
+    padding-left: 2rem !important; }
   .p-lg-9 {
     padding: 15rem !important; }
   .pt-lg-9,
@@ -6991,19 +6969,19 @@ button.bg-dark:focus {
   .mx-xl-7 {
     margin-left: 9rem !important; }
   .m-xl-8 {
-    margin: 12rem !important; }
+    margin: 2rem !important; }
   .mt-xl-8,
   .my-xl-8 {
-    margin-top: 12rem !important; }
+    margin-top: 2rem !important; }
   .mr-xl-8,
   .mx-xl-8 {
-    margin-right: 12rem !important; }
+    margin-right: 2rem !important; }
   .mb-xl-8,
   .my-xl-8 {
-    margin-bottom: 12rem !important; }
+    margin-bottom: 2rem !important; }
   .ml-xl-8,
   .mx-xl-8 {
-    margin-left: 12rem !important; }
+    margin-left: 2rem !important; }
   .m-xl-9 {
     margin: 15rem !important; }
   .mt-xl-9,
@@ -7131,19 +7109,19 @@ button.bg-dark:focus {
   .px-xl-7 {
     padding-left: 9rem !important; }
   .p-xl-8 {
-    padding: 12rem !important; }
+    padding: 2rem !important; }
   .pt-xl-8,
   .py-xl-8 {
-    padding-top: 12rem !important; }
+    padding-top: 2rem !important; }
   .pr-xl-8,
   .px-xl-8 {
-    padding-right: 12rem !important; }
+    padding-right: 2rem !important; }
   .pb-xl-8,
   .py-xl-8 {
-    padding-bottom: 12rem !important; }
+    padding-bottom: 2rem !important; }
   .pl-xl-8,
   .px-xl-8 {
-    padding-left: 12rem !important; }
+    padding-left: 2rem !important; }
   .p-xl-9 {
     padding: 15rem !important; }
   .pt-xl-9,

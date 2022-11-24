@@ -37,10 +37,15 @@ const Banner = () => {
     ).length
 
   return (
-    <div className="p-8">
-      <h2 className="font-semibold text-3xl mb-5">
+    <div className="p-8 flex flex-col">
+      <div className='flex justify-center align-center'>
+        <div>
+      <h2 className="font-semibold ">
         {opened()} Proposal{opened() == 1 ? '' : 's'} Currenly Opened
       </h2>
+      </div>
+      </div>
+      <div className='flex justify-center align-center'>
       <p>
         Current DAO Balance: <strong>{balance} Eth</strong> <br />
         Your contributions:{' '}
@@ -49,7 +54,10 @@ const Banner = () => {
           {isStakeholder ? ', and you are now a stakeholder 😊' : null}
         </span>
       </p>
-      <hr className="my-6 border-gray-300 dark:border-gray-500" />
+      </div>
+      <div className='flex justify-center align-center'>
+        <div>
+      <hr className="my-3 border-gray-300 dark:border-gray-500" />
       <p>
         {isStakeholder
           ? 'You can now raise proposals on this platform 😆'
@@ -58,20 +66,17 @@ const Banner = () => {
       <div className="flex flex-row justify-start items-center md:w-1/3 w-full mt-4">
         <input
           type="number"
-          className="form-control block w-full px-3 py-1.5
-          text-base font-normaltext-gray-700
-          bg-clip-padding border border-solid border-gray-300
-          rounded transition ease-in-out m-0 shadow-md
-          focus:text-gray-500 focus:outline-none
-          dark:border-gray-500 dark:bg-transparent"
+
           placeholder="e.g 2.5 Eth"
           onChange={(e) => setAmount(e.target.value)}
           value={amount}
           required
         />
+        </div>
+        </div>
       </div>
       <div
-        className="flex flex-row justify-start items-center space-x-3 mt-4"
+        className="flex flex-row justify-center items-center space-x-3 mt-4"
         role="group"
       >
         <button
